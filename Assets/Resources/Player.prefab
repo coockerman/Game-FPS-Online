@@ -784,11 +784,15 @@ MonoBehaviour:
   allSkins:
   - {fileID: 2100000, guid: 77c6cb66aedd8614a9d77ea6c7c4df49, type: 2}
   - {fileID: 2100000, guid: 41928b1c3f87fb74ab84785adb8b26b4, type: 2}
+  - {fileID: 2100000, guid: 74127230361817246951e01ab25b3bc5, type: 2}
+  - {fileID: 2100000, guid: ff33376319e587e4c91204ac427de275, type: 2}
+  - {fileID: 2100000, guid: 7222213491895fe43ad8d5232c3b4b53, type: 2}
   adsSpeed: 5
   adsOutPoint: {fileID: 77835450994798356}
   adsInPoint: {fileID: 2265550458196345942}
   footstepSlow: {fileID: 5706828992461828383}
   footstepFast: {fileID: 3543308917691524986}
+  maxRayDistance: 15
 --- !u!143 &7338187917987308197
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1197,7 +1201,7 @@ PrefabInstance:
     - target: {fileID: 1046021142950935873, guid: 38074321d88bbe3438955d413494dac3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7222213491895fe43ad8d5232c3b4b53, type: 2}
+      objectReference: {fileID: 2100000, guid: 3212f94e07d1deb45aa6a9a29053538a, type: 2}
     - target: {fileID: 1046021142964596801, guid: 38074321d88bbe3438955d413494dac3, type: 3}
       propertyPath: m_Name
       value: Player Character

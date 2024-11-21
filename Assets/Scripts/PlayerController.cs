@@ -54,7 +54,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public Transform adsOutPoint, adsInPoint;
 
     public AudioSource footstepSlow, footstepFast;
-
+    
+    public float maxRayDistance = 100f;
     // Start is called before the first frame update
     void Start()
     {
@@ -278,7 +279,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
         ray.origin = cam.transform.position;
 
-        if(Physics.Raycast(ray, out RaycastHit hit))
+        if(Physics.Raycast(ray, out RaycastHit hit, maxRayDistance))
         {
             //Debug.Log("We hit " + hit.collider.gameObject.name);
 

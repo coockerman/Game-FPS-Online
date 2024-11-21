@@ -15,7 +15,7 @@ public class MatchManager : MonoBehaviourPunCallbacks, IOnEventCallback
         instance = this;
     }
 
-    public enum EventCodes : byte
+    public enum EventCodes
     {
         NewPlayer,
         ListPlayers,
