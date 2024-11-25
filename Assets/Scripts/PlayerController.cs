@@ -70,10 +70,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
         currentHealth = maxHealth;
 
-        //Transform newTrans = SpawnManager.instance.GetSpawnPoint();
-        //transform.position = newTrans.position;
-        //transform.rotation = newTrans.rotation;
-
         if(photonView.IsMine)
         {
             playerModel.SetActive(false);
